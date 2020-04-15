@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FAFAFA;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bolder;
+}
+
+.container {
+	width:50%;
+	margin: 0 auto;
+	
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header {
+	height: 60px;
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid rgba(214, 211, 211, 0.301) ;
+	background-color: white;;
+	
+}
+
+.header__logo {
+	height: 40px;
+}
+
+.timeline-stories {
+	padding: 16px 0;	
+}
+.timeline-stories .container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.user__profile {
+	height: 78px;
+	width: 78px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+} 
+
+.user__profile--newstories	 {
+	background: linear-gradient(90deg, rgba(245,160,77,1) 0%, rgba(160,15,139,1) 100%);
+	border-radius: 100%;
+}
+
+.user__profile img {
+	width: 70px;
+	height: 70px;
+	border: 3px solid white;
+	border-radius: 100%;
+}
+
+
+.post__card {
+	border: 1px solid rgba(0, 0, 0, 0.137);
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.post__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 56px;
+}
+
+.post__header i {
+	margin-right: 15px;
+}
+
+.user__info {
+	display: flex;
+	align-items: center;
+}
+
+.user__info .user__profile img {
+	width: 40px;
+	height: 40px;
+}
+.user__info .user__profile {
+	width: 40px;
+	height: 40px;
+}
+.user__name {
+	font-weight: 800;
+	font-size: 12px;
+}
+.post__img {
+	width: 100%;
+}
+
+.post__reactions {
+	font-size: 25px;
+}
+
+.post__reactions i {
+	padding: 0 8px;
+	margin: 0 7px;
+}
+.post__reactions i:last-child{
+	margin: 0 15px 0 565px;
+}
+.post__likes {
+	display: flex;
+	align-items: center;
+	background-color: #F2F2F2;
+	height: 46px
+}
+
+.post__likes .user__profile img {
+	width: 30px;
+	height: 30px;
+}
+.post__likes .user__profile {
+	width: 30px;
+	height: 30px;
+}
+.post__likes-text {
+	font-size: 12px;
+}
