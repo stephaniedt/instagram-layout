@@ -115,15 +115,16 @@ a {
 
 .post__reactions {
 	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
 }
 
-.post__reactions i {
-	padding: 0 8px;
-	margin: 0 7px;
+.reactions__left i {
+	margin-right: 5px;
 }
-.post__reactions i:last-child{
-	margin: 0 15px 0 565px;
-}
+
+
 .post__likes {
 	display: flex;
 	align-items: center;
